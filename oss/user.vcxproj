@@ -35,9 +35,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{dce85d36-db38-4d95-a12e-da3f2d390ab5}</ProjectGuid>
+    <ProjectGuid>{dd84c008-5ff3-4b78-b04e-b67ca3a3070c}</ProjectGuid>
     <Keyword>Linux</Keyword>
-    <RootNamespace>oss</RootNamespace>
+    <RootNamespace>user</RootNamespace>
     <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
     <ApplicationType>Linux</ApplicationType>
     <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
@@ -84,17 +84,10 @@
     <RemoteDeployDir>$(RemoteRootDir)/</RemoteDeployDir>
   </PropertyGroup>
   <ItemGroup>
-    <ClCompile Include="oss.cpp" />
+    <ClCompile Include="user.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="config.h" />
     <ClInclude Include="p6.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="makefile" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="instruction.txt" />
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

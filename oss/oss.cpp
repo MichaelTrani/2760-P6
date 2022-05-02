@@ -1,3 +1,7 @@
+/*  Author: Michael Trani
+    May 2022
+    Process Master      */
+
 #include "p6.h"
 
 static std::string logfile = "logfile";
