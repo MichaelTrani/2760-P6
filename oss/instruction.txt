@@ -1,11 +1,12 @@
 Memory Management
 Purpose
-The goal of this homework is to learn about memory management using virtual memory (paging) in an operating system. You
-will work on the specified page management algorithm to allocate and deallocate pages of memory.
+The goal of this homework is to learn about memory management using virtual memory (paging) in an operating system. 
+You will work on the specified page management algorithm to allocate and deallocate pages of memory.
 
 Task
 In this project, you will design and implement a memory management module for our Operating System Simulator oss. 
 In this project, you will implement the second-chance (CLOCK) page replacement algorithm. 
+
 However, processes will implement their memory accesses in two different ways. 
 Your program should take in a command line option -m x, which accepts either a 0 or a 1, which determines how child processes will perform their memory access.
 When a page-fault occurs, it will be necessary to swap in that page. 
